@@ -25,9 +25,10 @@ function Slider() {
 					return (
 						<Carousel.Item key={item.id} style={{ background: item.background[0].backgroundColor }}>
 							<img className="d-block" src="3dpay51.png" alt="First slide" />
-							<Carousel.Caption>
+							<Carousel.Caption className="p-5">
 								<h3>{item.heading}</h3>
 								<p>{item.subHeading}</p>
+								<Button>Book Now</Button>
 							</Carousel.Caption>
 						</Carousel.Item>
 					);
@@ -36,7 +37,7 @@ function Slider() {
 			<div className="d-flex justify-content-center mt-5">
 				<NavLink to={"/"} className={"nav-link"}>
 					<Button variant="primary" className="p-3">
-						Back To Home Page
+						Back To Previous Page
 					</Button>
 				</NavLink>
 			</div>
