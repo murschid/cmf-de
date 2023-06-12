@@ -1,0 +1,6 @@
+.background{
+  background: url("../public/bg.png");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
